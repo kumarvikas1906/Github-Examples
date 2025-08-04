@@ -9,8 +9,9 @@ jobs:
       issues: write
       pull-requests: write
     steps:
+    #https://github.com/actions/first-interaction
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "Message that will be displayed on users' first issue"
-        pr-message: "Message that will be displayed on users' first pull request"
+        issue-message: "Welcome Vikas on creating this first issue' first issue"
+        pr-message: "Welcome Vikas on creating this PR ' first pull request"
